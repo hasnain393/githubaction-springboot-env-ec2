@@ -14,18 +14,13 @@ public class ExampleController {
     
     @GetMapping(value = "/")
     public String hello() {
-    	return "Hello World modified v3!!!   ";
+    	return "Hello World modified v3!!!";
     }
     
     
     @GetMapping(value = "/test")
     public String process() {
     	return "processing request-aws !!-done";
-    }
-
-   @GetMapping(value = "/sonali")
-    public String process() {
-    	return "this api is done by sonali";
     }
 
     
