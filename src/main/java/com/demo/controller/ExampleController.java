@@ -20,7 +20,7 @@ public class ExampleController {
     
     @GetMapping(value = "/test")
     public String process() {
-    	return "processing request-aws !!";
+    	return "processing request-aws !!-done";
     }
 
     
