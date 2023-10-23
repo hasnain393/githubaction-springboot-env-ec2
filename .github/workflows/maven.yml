@@ -32,5 +32,5 @@ jobs:
       run: sudo kill -9 `sudo lsof -t -i:${{secrets.APP_PORT}}` & sudo java -jar /home/ubuntu/actions-runner/_work/githubaction-springboot-env-ec2/githubaction-springboot-env-ec2/target/example-0.0.1-SNAPSHOT.jar & 
   
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
-    - name: Update dependency graph
-      uses: advanced-security/maven-dependency-submission-action@v3
+   # - name: Update dependency graph
+    #  uses: advanced-security/maven-dependency-submission-action@v3
