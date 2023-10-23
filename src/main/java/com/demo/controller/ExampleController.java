@@ -14,7 +14,7 @@ public class ExampleController {
     
     @GetMapping(value = "/")
     public String hello() {
-    	return "Hello World";
+    	return "Hello World modified";
     }
     
     
