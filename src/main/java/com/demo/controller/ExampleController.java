@@ -14,7 +14,7 @@ public class ExampleController {
     
     @GetMapping(value = "/")
     public String hello() {
-    	return "Hello World modified v2  by jaya kumar";
+    	return "Hello World modified v2  ";
     }
     
     
