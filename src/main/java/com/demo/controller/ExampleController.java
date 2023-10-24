@@ -23,7 +23,10 @@ public class ExampleController {
     	return "processing request-aws !!-done";
     }
 
-    
+      @GetMapping(value = "/books")
+    public String getbooks() {
+    	return "details of all books";
+    }
    
     
   
