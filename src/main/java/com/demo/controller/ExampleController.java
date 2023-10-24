@@ -27,6 +27,10 @@ public class ExampleController {
     public String getbooks() {
     	return "details of all books";
     }
+     @GetMapping(value = "/library")
+    public String getLibrary() {
+    	return "Welcome to our Library!!";
+    }
    
     
   
